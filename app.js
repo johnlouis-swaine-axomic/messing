@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var chars = require('chars');
+var chars = require('./routes/chars');
 
 app.get('/ello.txt', function(req, res) {
     var body = 'What the hell';
